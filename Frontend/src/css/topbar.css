@@ -1,0 +1,182 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  background-color:#0E1525;;
+  border-bottom: 1px solid #1e2638;
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.user-welcome h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.user-welcome p {
+  font-size: 13px;
+  color: #8a94a6;
+  margin: 4px 0 0 0;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Search Box Container */
+.search-container {
+  position: relative;
+}
+
+.search-input-box {
+  display: flex;
+  align-items: center;
+  background-color: #131825;
+  border: 1px solid #1e2638;
+  border-radius: 8px;
+  padding: 8px 14px;
+  width: 280px;
+}
+
+.search-input-box:focus-within {
+  border-color: #4f46e5;
+}
+
+.search-icon {
+  color: #8a94a6;
+  margin-right: 10px;
+}
+
+.search-input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+  width: 100%;
+}
+
+.search-input-box input::placeholder {
+  color: #6b7280;
+}
+
+.kbd-badge {
+  background-color: #1e2638;
+  color: #8a94a6;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+/* Search Results Popup */
+.search-status {
+  position: absolute;
+  top: 115%;
+  left: 0;
+  right: 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 50;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.search-status.found {
+  background-color: #064e3b;
+  color: #a7f3d0;
+  border: 1px solid #10b981;
+}
+
+.search-status.not_found {
+  background-color: #7f1d1d;
+  color: #fecaca;
+  border: 1px solid #ef4444;
+}
+
+/* Notification Button */
+.icon-button {
+  position: relative;
+  background-color: #131825;
+  border: 1px solid #1e2638;
+  color: #8a94a6;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button:hover {
+  color: #ffffff;
+}
+
+.dot-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 10px;
+}
+
+/* Profile Chip & Login Button */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #374151;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details .name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.profile-details .email {
+  font-size: 11px;
+  color: #8a94a6;
+}

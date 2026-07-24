@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.sidebar{
+    width:280px;
+    height:100vh;
+    background:#0E1525;
+    border-right:1px solid #243145;
+    padding:30px 18px;
+    position: fixed;
+}
+
+.logos{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:45px;
+}
+
+.logod{
+    width:52px;
+    height:52px;
+    border-radius:14px;
+}
+
+.logo-text h2{
+    color:#F8FAFC;
+    font-size:25px;
+    font-weight:700;
+    line-height:28px;
+}
+
+.logo-text p{
+    color:#F8FAFC;
+    opacity:.65;
+    font-size:13px;
+}
+
+.dash{
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+}
+
+.dash-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:13px 15px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:all 0.25s ease;
+    background:#4F46E5;
+    color:#F8FAFC;
+}
+
+.dash-item svg{
+    color:#F8FAFC;
+    flex-shrink:0;
+}
+
+.menu-link{
+    text-decoration:none;
+    color:#F8FAFC;
+    font-size:16px;
+    font-weight:500;
+}
+
+.dash-item:hover{
+    background:#4338CA;
+    transform:scale(1.03);
+}
+
+.dash-item:active{
+    transform:scale(0.95);
+}
+.dashboard{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:13px 15px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:all 0.25s ease;
+    color:#F8FAFC;
+}
+
+.dashboard svg{
+    color:#F8FAFC;
+    flex-shrink:0;
+}
+
+.dashLink{
+    text-decoration:none;
+    color:#F8FAFC;
+    font-size:16px;
+    font-weight:500;
+}
+
+.dashboard:hover{
+    background:#192338;
+    transform:scale(1.03);
+}
+
+.dashboard:active{
+    transform:scale(0.95);
+    background:#334155;
+}
